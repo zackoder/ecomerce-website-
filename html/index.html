@@ -3,9 +3,88 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="stylesheet" href="../styles/style.css">
+   <link rel="stylesheet" href="../styles/loup.css">
+   <link rel="stylesheet" href="../styles/loin.css">
+   <link rel="stylesheet" href="../styles/footer.css">
+   <title>ecomerce webpage</title>
 </head>
 <body>
-   <h1>hello there</h1>
+   <header id="header">
+      <div id="logocontainer">
+         <a href="#"><img id="logo" src="../imgs/logo.jpeg" alt="the website logo"></a>
+      </div>
+      <nav id="navbar">
+         <ul id="loging">
+            <li><button class="loging" id="loginbtn">log up</button></li>
+            <li><button class="loging" id="logupbtn">log in</button></li>
+         </ul>
+      </nav>
+   </header>
+   
+   <section id="container">
+      <div id="login" class="log-in">
+         <h1 class="head">log in</h1>
+         <form action="./index.html" id="loginform">
+            <fieldset class="fieldset">
+               <label for="email" class="label">email:</label>
+               <input class="input" type="email" id="email" placeholder="enter your email">
+
+               <label for="password" class="label">password:</label>
+               <input class="input" type="password" id="password">
+
+               <button type="submit" id="submit" class="submitbtn">submit</button>
+            </fieldset>
+         </form>
+      </div>  
+
+      <div id="logup" class="log-up">
+         <h1 class="head">log up</h1>
+         <form id="logupform" action="./index.html">
+            <fieldset class="fieldset">
+               <label class="label" for="firstname">first name:</label>
+               <input class="input" type="text" id="firstname" placeholder="enter your name" required>
+               <label class="label" for="lastname">last name:</label>
+               <input class="input" type="text" id="lastname" placeholder="enter your last name" required>
+               <label class="label" for="luemail">email:</label>
+               <input class="input" type="email" id="luemail" placeholder="hlksjflk@xxx.com" required>
+               <label class="label" for="lupassword">password:</label>
+               <input class="input" type="password" id="lupassword" required>
+               <label class="label" for="confipw">confirm password:</label>
+               <input class="input" type="password" id="confipw" required>
+               <label class="label" for="bd">birthday:</label>
+               <input class="input" type="date" id="bd" required>
+               <p class="sex">sex</p>
+               <div class="sexcontainer">
+                  <label for="male" class="lradio">male</label>
+                  <input class="radio" type="radio" id="male" name="malefemal">
+                  <label for="femal" class="lradio">femal</label>
+                  <input class="radio" type="radio" id="femal" name="malefemal">
+                  <label for="else" class="lradio">else</label>
+                  <input class="radio" type="radio" id="else" name="malefemal">
+               </div>
+               <button type="submit" id="lusubmit" class="submitbtn">submit</button>
+            </fieldset>
+         </form>
+      </div>
+      <div class="intrudation">
+         <h2>my name is zakaria but i like to use the nikname zack</h2>
+         <p>i have been learning web devlopemanet for more then 1 year </p>
+      </div>
+   </section>
+
+   <footer id="footer">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit saepe a quas sint placeat, nobis vel suscipit debitis deleniti et odit porro commodi laborum soluta voluptates labore repudiandae sit iusto?
+      Placeat ipsa cupiditate modi sapiente facilis itaque necessitatibus totam praesentium debitis dicta dolorem qui quos, quidem nisi, voluptates iusto provident eveniet. Adipisci molestiae dicta deleniti animi, ab eos! Rem, iusto.
+      Reprehenderit ex nulla sint fugiat, iure iste? Aperiam voluptate alias fugit, corrupti ab repellendus blanditiis voluptates. Consectetur aut deleniti cupiditate corporis similique fugit, libero nostrum fuga, dolor, odio nulla quas.
+      Fugiat error distinctio dolor excepturi. Libero, assumenda. Veritatis ratione repellat nisi perferendis. Porro obcaecati et recusandae illo accusantium illum, iure suscipit iste cupiditate quisquam aliquam! Blanditiis inventore impedit perspiciatis nisi.
+      Repellat cumque dolor debitis natus unde nihil, delectus incidunt quam! Quo, cumque fuga, enim eum dicta explicabo praesentium itaque, deserunt ex hic velit! Natus qui odit eaque quam harum quo?
+      Iusto neque doloribus excepturi magni, reiciendis pariatur! Odio explicabo, ullam ducimus consequatur dolor dolores repudiandae earum tenetur corporis aliquid quisquam. Magni provident laudantium illo vero molestias possimus perspiciatis alias consectetur!
+      Quasi sequi quos error, obcaecati illum esse voluptas qui eum delectus provident tempore animi, commodi earum ratione deserunt voluptatibus? Ipsa, animi nihil. Incidunt sit hic placeat quas, fugiat id quia?
+      Enim tempore ad excepturi molestias? Ipsam dolorum ut fuga inventore libero neque repudiandae, veniam reiciendis a quod mollitia nisi ab rerum illum consequatur, perspiciatis ex obcaecati expedita aliquid cupiditate laborum!
+      Debitis dolorum, modi repellendus harum quibusdam facere porro id et dicta omnis, mollitia sed ipsum sit ratione vero in. Nesciunt, necessitatibus. Facilis porro repudiandae iste amet dolores excepturi, odio fugit.
+      Laborum alias quae molestias praesentium, odit deleniti ea provident ipsa, repellendus officiis ratione! Fugiat, error sit unde totam, enim soluta natus itaque quasi quia ab vel voluptatibus eius accusamus neque.</p>
+   </footer>
+   <script src="../js/index.js"></script>
 </body>
 </html>
