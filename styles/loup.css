@@ -1,0 +1,90 @@
+.log-up{
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform:  translate(-50%, -50%);
+   transition: 200ms ease-in-out;
+   max-width: 80%;
+   width: 70%;
+   height: auto;
+   border: 1px black solid;
+   border-radius: 10px;
+   background: rgb(244, 249, 222);
+   padding-bottom: 25px;
+   box-shadow: 0 0 20px 15px rgb(95, 95, 95);
+   border: 3px rgb(255, 255, 255) solid;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color:  white;
+   z-index: -1;
+}
+
+
+#container .head {
+   font-size: 2.5rem;
+   color: rgb(82, 39, 0);
+   letter-spacing: 2px;
+   width: 100% ;
+   padding-top: 40px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.fieldset{
+   border: none;
+   align-items: center;
+}
+.label {
+   color: black;
+   font-size: 2rem;
+   margin-left: 5% ;
+   margin-bottom: -10px;
+}
+
+.input {
+   width: 88%;
+   height: 40px;
+   border-radius: 6px;
+   display: block;
+   padding: 8px;
+   font-size: 1.5rem;
+   margin: 15px auto;
+}
+#container #logup #logupform .fieldset #bd {
+   width: auto;
+   display: inline;
+   margin-left: 30px;
+}
+#container #logup #logupform .fieldset p {
+   width: 100%;
+   font-size: 2.5rem;
+   margin: 20px 0 35px;
+   text-align: center;
+}
+#container #logup #logupform .fieldset .sexcontainer {
+   display: flex;
+   justify-content: space-evenly;
+   height: auto;
+   width: 90%;
+   margin: 0 auto;
+   padding-bottom: 30px;
+}
+#container #logup #logupform .fieldset .radio {
+   height: 25px;
+   width: 25px;
+   align-self: center;
+}
+#container #logup #logupform .fieldset .lradio {
+   font-size: 1.75rem;
+}
+
+.submitbtn {
+   width: 60%;
+   padding: 15px 0;
+   border-radius: 8px;
+   display: block;
+   margin: 15px auto 0;
+   font-size: 1.5rem;
+   text-align: center;
+   background-color:rgb(108, 255, 108) ;
+   color: white;
+}

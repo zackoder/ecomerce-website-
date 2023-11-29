@@ -2,3 +2,65 @@
    box-sizing: border-box;
    margin: 0;
 }
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+#header {
+   width: 100%;
+   height: 90px;
+   background-color: rgb(254, 225, 107);
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid black;
+   box-shadow: 0 2px 2px rgba(48, 48, 48, 0.591);
+   position: fixed;
+}
+#header #logocontainer {
+   width: 150px;
+   height: 90px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#header #logocontainer a #logo {
+   height: 90px;
+   margin-left: 20%;
+}
+#header #navbar {
+   width: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#header #navbar #loging {
+   width: 450px;
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+li button.loging {
+   width: 150px;
+   height: 40px;
+   color: white;
+   background: linear-gradient(rgb(201, 211, 201), rgb(64, 237, 64), rgb(223, 232, 223));
+   font-size: 1.5rem;
+   border: 1px solid gray;
+   border-radius: 10px;
+   margin-left: -45px;
+   cursor: pointer;
+}
+
+li button.loging:hover {
+   background: linear-gradient(rgb(198, 249, 198), rgb(67, 201, 67), rgb(196, 251, 196));
+}
+
+
+#container {
+   background-color:rgb(244, 249, 222);
+   height: 1200px;
+   width: 100%;
+   margin-top: 200px;
+}
